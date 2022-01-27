@@ -28,7 +28,7 @@ const setScore = async (score) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(score),
-    }
+    },
   );
 
   const { result } = await response.json();
@@ -38,7 +38,7 @@ const setScore = async (score) => {
 
 const getScores = async () => {
   const response = await fetch(
-    `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${apiKey}/scores`
+    `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${apiKey}/scores`,
   );
 
   const { result } = await response.json();
