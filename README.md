@@ -1,14 +1,27 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Webpack Templte
+# Leaderboard
 
-Additional description about the project and its features.
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
+
+## Screenshot
+
+![](./screen.png)
+
+## Built using
+
+- HTML
+- CSS
+- JavaScript
+- Webpack
 
 ## Getting Started
 
-after cloneing
+follow thies steps to setup the project
 
 ```
+git clone git@github.com:ahmedtaa/LeaderBoard.git
+cd leaderboard
 npm install
 npm start
 ```
